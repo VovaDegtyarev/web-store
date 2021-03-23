@@ -6,9 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="Model\" />
-    <Folder Include="Repository\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="TinyMapper" Version="3.0.3" />
   </ItemGroup>
 
 </Project>
